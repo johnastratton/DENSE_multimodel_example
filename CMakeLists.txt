@@ -13,7 +13,7 @@ set(DENSE_PATH "${CMAKE_SOURCE_DIR}/DENSE" CACHE FILEPATH "Path to the DENSE pro
 if (NOT EXISTS ${DENSE_PATH}/CMakeLists.txt)
   message( FATAL_ERROR "Cannot find DENSE directory: make sure the git
   submodule was checked out or set the variable DENSE_PATH" )
-endif (NOT EXISTS ${DENSE_PATH})
+endif (NOT EXISTS ${DENSE_PATH}/CMakeLists.txt)
 
 project (StochSimMethods CXX C)
 
