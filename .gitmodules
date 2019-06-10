@@ -1,0 +1,4 @@
+[submodule "DENSE"]
+	path = DENSE
+	url = git@github.com:johnastratton/DENSE.git
+	branch = dev
